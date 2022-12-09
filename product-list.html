@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Product List</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="sass/style.css">
+</head>
+
+<body>
+    <header style="overflow: hidden;">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 logo">
+                <a href="firstpage.html"><img src="img/logo.jpg"></a>
+            </div>
+            <div class="col-lg-8 col-md-6 col-sm-12 elements">
+                <ul>
+                    <li>
+                        <a href="#">HOME</a>
+          
+                    </li>
+                    <li><a href="#">PAGES</a>
+                    
+                    </li>
+                    <li><a href="#">SHOP</a></li>
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">ELEMENTS</a></li>
+                    <li><a href="#"><i class="fas fa-search"></i></a></li>
+                    <li><a href="#"><i class="fas fa-shopping-bag"></i> <sup class="cart">0</sup></a>
+                    </li>
+                    <li><a href="#">CART ($0)</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section style="overflow: hidden;">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="head-products">
+                    <h1 class="h1product">product list</h1>
+                    <p class="textproduct">Where flowers are our inspiration</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section style="overflow: hidden;">
+        <div class="row">
+            <div class="col-lg-2 col-md-12 col-sm-12">
+                <div class="side-images">
+                    <a href="#"><img src="img/flower2.jpg"></a>
+                    <a href="#"><img src="img/flower3.jpg"></a>
+                    <a href="#"><img src="img/flower4.jpg"></a>
+                    <a href="#"><img src="img/flower5.jpg"></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="main-image">
+                    <a href="#"><img src="img/flower1.jpg"></a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="selected-name">
+                    <h2>Orange Amaryllis</h2>
+                    <p id="priceselected">$259</p>
+                    <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                        Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non
+                        neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc.</p>
+                </div>
+                <div class="form-select">
+                    <div class="quantity">
+                        <p class="quantity-name">Quantity</p>
+                        <a href="#"><i class="fas fa-caret-left left"></i></a>
+                        <p class="number-quantity">1</p>
+                        <a href="#"><i class="fas fa-caret-right right"></i></a>
+                    </div>
+                    <div class="addtocart">
+                        <a href="#">
+                            <h3>add to cart</h3>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="selected-info">
+                    <div class="selected-code">
+                        <p>SKU: <span id="code">989873</span></p>
+                    </div>
+                    <div class="selected-category">
+                        <p>Categories: <a href="#">Various</a> <a href="#">, Exotic</a></p>
+                    </div>
+                    <div class="selected-tags">
+                        <p>Tags: <a href="#">Llilies</a> <a href="#">, Orchids</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section style="overflow: hidden;">
+        <div class="row ">
+            <div class="col-lg-12 col-md-6 col-sm-12">
+                <div class="tab-menu">
+                    <div class="menu">
+                        <div data-index="1" class="active title-tab">Description</div>
+                        <div data-index="2" class="title-tab">Additional Information</div>
+                        <div data-index="3" class="title-tab">Reviews(2)</div>
+
+                    </div>
+                    <div class="content">
+                        <div data-index="1">
+                            <h3>The power of flowers</h3>
+                            <p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla
+                                ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
+                                augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas
+                                tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem
+                                neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
+                                Maecenas nec odio et ante</p>
+                        </div>
+                        <div data-index="2" class="d-none">
+                            <p class="psizes"> Weight: <span class="sizes"> 1 kg</span></p>
+                            <p class="psizes">Dimensions:<span class="sizes">30 x 30 x 50 cm</span></p>
+                        </div>
+                        <div data-index="3" class="d-none review">
+                            <h2 class="h2commentator">Reviews</h2>
+                            <span class="commentator1">
+                                <img src="img/commentator.png">
+                                <span class="commentatorname1">
+                                    <p class="commentatorname">JOSHUA GARCIA <span>27.04.2018</span></p>
+
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut dolore ratione
+                                        quod quo quam, facere corporis harum nihil quasi, eum sit. Aut, ullam itaque
+                                        sint et eveniet sed suscipit nemo.</p>
+
+                                </span>
+                            </span>
+                            <span class="commentator1">
+                                <img src="img/commentator1.png">
+                                <span class="commentatorname1">
+                                    <p class="commentatorname">JOAN STANLEY <span>27.04.2018</span></p>
+
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut dolore ratione
+                                        quod quo quam, facere corporis harum nihil quasi, eum sit. Aut, ullam itaque
+                                        sint et eveniet sed suscipit nemo.</p>
+
+                                </span>
+                            </span>
+                            <h2 class="mt-5 h2commentator">Add a review</h2>
+                            <span class="reviews">Your email address will not be published.Required fields are marked
+                                *</span>
+                            <span class="reviews">Your review *</span>
+                            <span class="input-forms">
+                                <textarea name="" id="" cols="125" rows="6"></textarea>
+                            </span>
+                            <span class="input-forms">
+                                <p>Name*</p><input type="text" class="text-place">
+                            </span>
+
+                            <span class="input-forms">
+                                <p>Email*</p><input type="email" class="text-place">
+                            </span>
+                            <span><input type="checkbox" name="" id="">
+                                <p>Save my name, email, and website in this browser for the next time I comment.</p>
+                            </span>
+                            <button type="button" class="btn btn-danger btn-submit">Submit</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section style="overflow: hidden;">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="related-images">
+                    <h2>Related Products</h2>
+                </div>
+
+            </div>
+        </div>
+        <div class="row images">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="image">
+                   <div class="imagerelatedproducts"><img src="img/img9.jpg" id="imgsale" height="100%" width="100%"></div> 
+                    <p id="sale1">Sale</p>
+                    <h6 class="imagetext "><a href="#" class="text-muted">scarlet sage</a> </h6>
+                    <p class="price"><a href="#" id="linethrough">$259</a> <a href="#" id="sale">$159</a></p>
+                    <p class="addtocart">Add to Cart</p>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="image"><div class="imagerelatedproducts"><img src="img/img2.jpg" id="imgsale" height="100%" width="100%"></div> 
+                    <h6 class="imagetext "><a href="#" class="text-muted">FoxGlove Flower</a> </h6>
+                    <p class="price"><a href="#">$259</a></p>
+                    <p class="addtocart">Add to Cart</p>
+
+                </div>
+
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="image"> <div class="imagerelatedproducts"><img src="img/img10.jpg" id="imgsale" height="100%" width="100%"></div> 
+
+                    <h6 class="imagetext "><a href="#" class="text-muted">Pink Flower tree </a> </h6>
+                    <p class="price"><a href="#">$180 - $350</a></p>
+                    <p class="addtocart">Select Options</p>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="image"><div class="imagerelatedproducts"><img src="img/img7.jpg" id="imgsale" height="100%" width="100%"></div> 
+                    <h6 class="imagetext "><a href="#" class="text-muted">summer savory</a> </h6>
+                    <p class="price"><a href="#">$259</a></p>
+                    <p class="addtocart">Add to Cart</p>
+
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <section style="overflow: hidden;">
+            <div class="fixed-item1">
+                    <i class="fas fa-anchor"></i>
+                </div>
+                <div class="fixed-item2">
+                    <i class="fas fa-shopping-cart"></i>
+                </div></section>
+   
+    <footer style="overflow: hidden;">
+            <div class="row footer-row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <ul>
+                        <li class="firstli">Customer Service</li>
+                        <li><a href="#">Help & Contact Us</a></li>
+                        <li><a href="#">Return & Refunds</a></li>
+                        <li><a href="#">Online Stores</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <ul>
+                        <li class="firstli">Company</li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Order Tracking</a></li>
+                        <li><a href="#">FAQ Page</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Login</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <ul>
+                        <li class="firstli">Social Media</li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Tumblr</a></li>
+                        <li><a href="#">Pinterest</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <ul>
+                        <li class="firstli">Archive</li>
+                        <li><a href="#">Designer Shoes</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Feature Index</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Help & Support</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="footer-last">
+                    <div class="col-lg-4 footer-side">
+                        <p class="author">Design by <span class="authorname">Nijataas</span> 202</p>
+                    </div>
+                    <div class="col-lg-4  footer-side imagedebitcards">
+                        <img src="img/footer-bottom.png">
+                    </div>
+                    <div class="col-lg-4 icons footer-side socialmedia">
+                        <a href="#">Instagram</a>
+                        <a href="#">Facebook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="backtotop">
+                <a href="#"> <i class="fas fa-angle-up"> </i></a>
+            </div>
+        </footer>
+    <script src="https://kit.fontawesome.com/1126a3aedb.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
